@@ -2,11 +2,7 @@
     width:80%;
     padding: 10px 50px;
 }
-.hero-section{
-    display: flex;
-    align-items: center;
-   
-}
+
 
 @media (max-width:700px){
     .main,.note-side{

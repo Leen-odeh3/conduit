@@ -21,6 +21,7 @@ const Footer = () => {
           color: "white",
           textDecoration: "underline",
           paddingLeft: "8px",
+          fontSize:"23px"
         }}
       >
         Fork On Github

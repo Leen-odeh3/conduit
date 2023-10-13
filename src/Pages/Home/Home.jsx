@@ -1,10 +1,13 @@
-
+import MainPage from "./MainPage";
+import './Home.css'
 const Home = () => {
   return (
-    <div>
-      home
+    <div className="hero-section">
+      <div className="main">
+        <MainPage />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

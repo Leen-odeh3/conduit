@@ -1,0 +1,40 @@
+h3{
+    color:#5cb85c ;
+}
+.all-section{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+div.likes{
+    border: 1px solid #5cb85c;
+    width:80px;
+    padding:"20px 5px";
+    text-align: center;
+    border-radius: 5px;
+    color:#5cb85c;
+    margin-bottom: 10px;
+}
+div.likes:hover{
+color:white;
+background-color: #5cb85c;
+}
+.icon:hover{
+    color:aliceblue;
+}
+.icon{
+    font-size: 25px !important;
+    padding-top: 10px;
+    color:#5cb85c;
+}
+span{
+    color:rgb(190, 190, 190);
+}
+div.more{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+p.des{
+    color:darkgray;
+    margin-bottom: 15px;
+}

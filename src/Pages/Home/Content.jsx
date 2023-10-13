@@ -64,10 +64,10 @@ const Content = () => {
           </div>
           
           <h2> {e.title}</h2>
-          <p className="des"> {e.description} </p>
+          <p className="des" style={{fontSize:"20px"}}> {e.description} </p>
           <div className="more">
             <a href="#">{e.link} </a>
-            <p>{e.topic}</p>
+            <p style={{fontSize:"15px"}}>{e.topic}</p>
           </div>
           <hr
             style={{

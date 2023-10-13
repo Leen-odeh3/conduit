@@ -6,6 +6,8 @@ import NewPost from "../Pages/NewPost/NewPost";
 import Profile from "../Pages/Profile/Profile";
 import Signin from "../Pages/Signin/Signin";
 import Signup from "../Pages/Signup/Signup";
+import '../../node_modules/font-awesome/css/font-awesome.min.css'; 
+
 
 const Routing = () => {
   return (

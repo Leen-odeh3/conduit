@@ -6,7 +6,7 @@ import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 
 const Header = () => {
   return (
-    <div
+    <div className="main-content"
       style={{
         display: "flex",
         alignItems: "center",

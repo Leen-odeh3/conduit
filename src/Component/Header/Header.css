@@ -4,3 +4,14 @@ a{
     font-size: 19px;
 }
 
+@media (max-width:850px) {
+   div.main-content{
+    display: block !important;
+   }
+    h1{
+        text-align: center;
+    }
+   a{
+    padding-right: 6px;
+   }
+}

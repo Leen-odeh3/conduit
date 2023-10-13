@@ -11,7 +11,7 @@ const Content = () => {
         "Try to transmit the HTTP card, maybe it will override the multi-byte hard drive!",
       description:
         "Assumenda molestiae laboriosam enim ipsum quaerat enim officia vel quo. Earum odit rem natus totam atque cumque. Sint dolorem facere non.",
-      link: "Read more",
+      link: "Read more ..",
       topic: "voluptate, rerum ,ducimus, hic,..",
     },
     {
@@ -23,8 +23,8 @@ const Content = () => {
         "If we quantify the alarm, we can get to the FTP pixel through the online SSL interface!",
       description:
         "Omnis perspiciatis qui quia commodi sequi modi. Nostrum quam aut cupiditate est facere omnis possimus. Tenetur similique nemo illo soluta molestias facere quo. Ipsam totam facilis delectus nihil quidem soluta vel est omnis.",
-      link: "Read more",
-      topic: "blanditiis, orm ,ducimus, hic,..",
+      link: "Read more .. ",
+      topic: "blanditiis, orm , ducimus , hic,..",
     },
     {
         img:"https://i.postimg.cc/htdCdnMv/women.jpg",
@@ -34,8 +34,8 @@ const Content = () => {
       title: "We need to calculate the bluetooth JBOD bus!",
       description:
         " Ipsa nemo eos sequi nulla id accusamus nam ratione dolore. Omnis sint quisquam accusamus rem rem nihil. Non minus animi cum dolorem earum odit sequi. Rem non inventore sed dicta atque modi. Sed dolorem iste molestiae. Sed eum iste aliquid aliquid.",
-      link: "Read more",
-      topic: "possi, musmaiores,facilis,..",
+      link: "Read more ..",
+      topic: "possi, musmaiores , facilis,..",
     },
   ];
 

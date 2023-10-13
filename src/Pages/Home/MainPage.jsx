@@ -83,7 +83,9 @@ export default function MainPage() {
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
+        <div className="feedback" style={{height:"400px"}}> 
         No articles are here... yet.
+        </div>
       </CustomTabPanel>
 
       <CustomTabPanel value={value} index={1}>

@@ -6,7 +6,7 @@ const Footer = () => {
       style={{
         backgroundColor: "#242424",
         color: "white",
-        padding: "10px",
+        padding: "18px",
         textAlign: "center",
       }}
     >

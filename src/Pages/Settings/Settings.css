@@ -11,7 +11,7 @@ p{
     margin-bottom: 10px;
 }
 form{
-    width:70%;
+    width:90%;
     margin: auto;
 }
 input{
@@ -57,6 +57,6 @@ button.btn2:hover{
 
 @media(max-width:800px){
    input{
-        width:90%;
+        width:100%;
     }
 }

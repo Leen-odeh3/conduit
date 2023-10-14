@@ -60,3 +60,15 @@ button.btn2:hover{
         width:100%;
     }
 }
+@media (min-width:801px) and (max-width:1400px){
+    form{
+        width:100%;
+    }
+    input{
+         width:76%;
+         height: 80px;
+     }
+     div.setting{
+        height: 927px;
+     }
+ }

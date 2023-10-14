@@ -1,5 +1,19 @@
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { auth } from "../../Firebase/Config";
+import { useAuthState } from "react-firebase-hooks/auth";
+
 const NewPost = () => {
-  return (
+  const navigate =useNavigate();
+  const [user] = useAuthState(auth);
+
+  useEffect(() => {
+    if (!user) {
+      navigate("/");
+    }
+  }, [user, navigate]);
+  
+    return (
     <div>
       <form style={{ width: "100%", padding: "30px", margin: "auto" }}>
         <input type="text" placeholder="Articl Title" />

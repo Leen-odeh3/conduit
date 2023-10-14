@@ -2,9 +2,18 @@ import "./Settings.css";
 import { auth } from "../../Firebase/Config";
 import { signOut } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+import { useAuthState } from "react-firebase-hooks/auth";
 
 const Settings = () => {
   const navigate=useNavigate();
+  const [user] = useAuthState(auth);
+
+  useEffect(()=>{
+    if (!user) {
+      navigate("/");
+    }
+  })
   return (
     <div className="setting">
       <p>Your Settings</p>

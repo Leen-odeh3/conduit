@@ -1,8 +1,17 @@
 import { useNavigate } from "react-router-dom";
 import SettingsIcon from "@mui/icons-material/Settings";
+import { useEffect } from "react";
+import { auth } from "../../Firebase/Config";
+import { useAuthState } from "react-firebase-hooks/auth";
 
 const Profile = () => {
   const navigate = useNavigate();
+  const [user] = useAuthState(auth);
+  useEffect(()=>{
+    if (!user) {
+      navigate("/");
+    }
+  })
   return (
     <>
       <div style={{ background: "#f3f3f3", height: "250px" }}>

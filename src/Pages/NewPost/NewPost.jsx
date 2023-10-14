@@ -9,7 +9,7 @@ const NewPost = () => {
 
   useEffect(() => {
     if (!user) {
-      navigate("/");
+      navigate("/signin");
     }
   }, [user, navigate]);
   

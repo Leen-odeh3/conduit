@@ -9,7 +9,7 @@ const Profile = () => {
   const [user] = useAuthState(auth);
   useEffect(()=>{
     if (!user) {
-      navigate("/");
+      navigate("/signin");
     }
   })
   return (

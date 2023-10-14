@@ -2,6 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../Firebase/Config";
 import { useState } from "react";
+import { updateProfile } from "firebase/auth";
 
 const Signup = () => {
   const [email, setemail] = useState("");
@@ -17,7 +18,12 @@ const Signup = () => {
           Have an account?
         </Link>
         <form>
-          <input type="text" placeholder="UserName" required  onChange={(e) => setname(e.target.value)} />
+          <input
+            type="text"
+            placeholder="UserName"
+            required
+            onChange={(e) => setname(e.target.value)}
+          />
           <input
             type="email"
             placeholder="Email"
@@ -36,13 +42,25 @@ const Signup = () => {
           style={{ marginBottom: "20px", cursor: "pointer" }}
           onClick={(e) => {
             e.preventDefault();
-            navigate("/");
 
             createUserWithEmailAndPassword(auth, email, password)
               .then((userCredential) => {
                 // Signed up
                 const user = userCredential.user;
                 // ...
+                updateProfile(auth.currentUser, {
+                  displayName: name,
+                  
+                })
+                  .then(() => {
+                    navigate("/");
+                  })
+                  .catch((error) => {
+                    // An error occurred
+                    // ...
+                  });
+
+                navigate("/");
               })
               .catch((error) => {
                 const errorCode = error.code;

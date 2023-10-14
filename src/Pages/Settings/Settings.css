@@ -54,3 +54,9 @@ button.btn2:hover{
     color:white;
     background-color: #b85c5c;
 }  
+
+@media(max-width:800px){
+   input{
+        width:90%;
+    }
+}

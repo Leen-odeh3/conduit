@@ -4,7 +4,7 @@ const Signup = () => {
   return (
     <div>
       <div style={{ height: "500px", textAlign: "center", marginTop: "30px" }}>
-        <p style={{ textAlign: "center" }}>Sign In</p>
+        <p style={{ textAlign: "center" }}>Sign Up</p>
         <Link to="/signup" style={{ color: "#5cb85c" }}>
           Have an account?
         </Link>
@@ -17,7 +17,7 @@ const Signup = () => {
           className="btn1"
           style={{ marginBottom: "20px", cursor: "pointer" }}
         >
-          Sign In
+          Sign in
         </button>
       </div>
     </div>

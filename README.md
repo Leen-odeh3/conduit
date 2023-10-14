@@ -38,7 +38,7 @@
 
 ## 💻 Technologies Used
 ###### For building the UI and styling the application
-- ReactJS , Css (Responsive design)
+- ReactJS , Css (Responsive design- Media Query )
 ###### Sign in Authintication (Google Authintication)
 - FireBase
 ###### UI Kit

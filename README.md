@@ -3,25 +3,35 @@
 ###### This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 # Site
 ## Landing Page
-<img width="216" alt="1" src="https://github.com/leen-3/conduit/assets/123558998/3f9b9814-1767-4a95-b072-98ea33c8af26">
+<img width="320" alt="med" src="https://github.com/leen-3/conduit/assets/123558998/ca423666-e1ea-4cde-8c14-856712e5c5a1">
+<img width="216" alt="1" src="https://github.com/leen-3/conduit/assets/123558998/ccf7b9b8-8570-477f-9153-e01ff6063131">
 <br>
-<img width="943" alt="6" src="https://github.com/leen-3/conduit/assets/123558998/ff92ddbd-bfdc-4a5a-b8ff-70b187389ee5">
+<img width="600" alt="larg" src="https://github.com/leen-3/conduit/assets/123558998/d92368fd-8739-4ea1-b5dc-1ef4624fbf2c">
+
 <br>
- <img width="943" alt="6" src="https://github.com/leen-3/conduit/assets/123558998/96e51888-9280-4281-b05a-b7ec88a33e86"/>
+<img width="800" alt="6" src="https://github.com/leen-3/conduit/assets/123558998/51c1204b-a8df-4857-8593-076bd533a695"/>
+
+<br>
 
  ## SignIn & SignUp Page
- <img width="181" alt="4" src="https://github.com/leen-3/conduit/assets/123558998/fdf262eb-cdb4-4ff3-94c9-99ac789fc1da">
-<img width="164" alt="3" src="https://github.com/leen-3/conduit/assets/123558998/4431cbde-b19d-4fac-a9ee-9d97e60b6192">
-<img width="218" alt="2" src="https://github.com/leen-3/conduit/assets/123558998/8ae54334-1825-4d2b-bb9f-5e0050a27a94">
+ 
+ <img width="181" alt="4" src="https://github.com/leen-3/conduit/assets/123558998/98f5d87d-19d1-4514-96de-014c5a9ca3a4">
+ <img width="164" alt="3" src="https://github.com/leen-3/conduit/assets/123558998/08a01ac2-9e36-4e8b-869f-e3c7bab7306a">
+<img width="218" alt="2" src="https://github.com/leen-3/conduit/assets/123558998/89db5a39-4020-4867-a72a-fc8525c35121">
+ 
+
+
 
 ## Settings Page
-<img width="304" alt="5" src="https://github.com/leen-3/conduit/assets/123558998/8e6f3cc7-d4a6-4661-be20-19c79254f011">
+<img width="304" alt="5" src="https://github.com/leen-3/conduit/assets/123558998/48c30dea-bbb4-4a11-8624-5c9fd92285ea">
 
 ## NewPost Page
-<img width="304" alt="5" src="https://github.com/leen-3/conduit/assets/123558998/c9b6202b-ba34-48ac-b356-4c093bdd7d58"/>
+
+<img width="304" alt="5" src="https://github.com/leen-3/conduit/assets/123558998/79665255-18be-4bee-bb53-fb533a00df46"/>
 
 ## Profile Page
-<img width="304" alt="5" src="https://github.com/leen-3/conduit/assets/123558998/a6269912-2293-4a4f-a6e4-d6297d6caca1"/>
+
+<img width="304" alt="5" src="https://github.com/leen-3/conduit/assets/123558998/930cf9fe-d24d-43ee-b7cd-6fbb0f44ac64"/>
 
  
 

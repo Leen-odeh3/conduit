@@ -6,14 +6,14 @@ import { useEffect } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 
 const Settings = () => {
-  const navigate=useNavigate();
+  const navigate = useNavigate();
   const [user] = useAuthState(auth);
 
-  useEffect(()=>{
+  useEffect(() => {
     if (!user) {
       navigate("/");
     }
-  })
+  });
   return (
     <div className="setting">
       <p>Your Settings</p>
@@ -33,7 +33,7 @@ const Settings = () => {
         className="btn2"
         onClick={(e) => {
           e.preventDefault();
-          
+
           navigate("/");
           signOut(auth)
             .then(() => {
